@@ -1,2 +1,97 @@
 @import url(./global/header.css);
 @import url(./global/global.css);
+
+/* INTRODUÇÂO CSS */
+.introducao-bg {
+  background: #000;
+  color: #fff;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 80px;
+}
+.introducao h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+  font: 600 4rem/1.125 Poppins, sans-serif;
+}
+.introducao p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+  font: 400 1.35rem/1.5 Roboto, sans-serif;
+}
+.introducao h1 span {
+  color: #00fed5;
+}
+.introducao a {
+  padding: 16px 32px;
+  display: inline-block;
+  background: linear-gradient(90deg, #00ffd6 2.39%, #1cb39a 88.91%);
+  border-radius: 50px;
+  color: #003a31;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+  font: 600 1.125rem/1.35 Poppins, sans-serif;
+}
+.introducao a:hover {
+  background: #00fed5;
+}
+.introducao .btn-cinza {
+  background: linear-gradient(90deg, #35334b 2.39%, #262534 88.91%);
+  color: #fff;
+}
+.introducao .btn-cinza:hover {
+  background: #595681;
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 48px;
+  }
+  .introducao p {
+    font-size: 18px;
+  }
+  .introducao {
+    justify-items: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .introducao-bg {
+    background: #111;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-imagem {
+    grid-row: 1;
+    max-width: 350px;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .introducao a {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
