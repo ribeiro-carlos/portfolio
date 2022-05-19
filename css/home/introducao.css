@@ -1,0 +1,57 @@
+/* INTRODUÇÂO CSS */
+.introducao-bg {
+  background: var(--cor-4);
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 80px;
+}
+.introducao h1 {
+  margin-bottom: 32px;
+}
+.introducao p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 48px;
+  }
+  .introducao p {
+    font-size: 18px;
+  }
+  .introducao {
+    justify-items: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .introducao-bg {
+    background: var(--cor-3);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-imagem {
+    grid-row: 1;
+    max-width: 350px;
+    padding-top: 40px;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
