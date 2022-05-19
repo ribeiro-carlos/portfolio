@@ -31,3 +31,14 @@
   background: linear-gradient(90deg, #00ffd6 2.39%, #1cb39a 88.91%);
   position: absolute;
 }
+@media (max-width: 1200px) {
+  .sites {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .sites {
+    grid-template-columns: 1fr;
+  }
+}
