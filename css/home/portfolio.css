@@ -1,0 +1,33 @@
+.portfolio-bg {
+  background: var(--cor-3);
+  position: relative;
+}
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.sites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 80px;
+}
+.sites-desc {
+  padding: 16px;
+  font: 400 1rem/1.35 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.sites img:hover {
+  box-shadow: 2px 2px 12px 0px rgba(46, 46, 46, 0.36);
+}
+.item-grid.port img {
+  border-radius: 8px;
+}
+.portfolio-bg::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #00ffd6 2.39%, #1cb39a 88.91%);
+  position: absolute;
+}
