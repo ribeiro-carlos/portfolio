@@ -6,3 +6,5 @@
 
 /* Home */
 @import url(./home/introducao.css);
+@import url(./home/sobre.css);
+@import url(./home/habilidades.css);

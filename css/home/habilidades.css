@@ -1,0 +1,54 @@
+.habilidades-bg {
+  background: var(--cor-4);
+}
+.habilidades {
+  padding-top: 80px;
+}
+.skils {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 80px;
+}
+.tecnologia {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.item-grid {
+  justify-self: center;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .habilidades {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .habilidades h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .habilidades p {
+    font-size: 18px;
+  }
+  .skils {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .habilidades h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .skils {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .skils {
+    grid-template-columns: 1fr 1fr;
+  }
+}

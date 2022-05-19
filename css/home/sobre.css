@@ -1,8 +1,8 @@
 /* INTRODUÇÂO CSS */
-.introducao-bg {
-  background: var(--cor-4);
+.sobre-bg {
+  background: var(--cor-3);
 }
-.introducao {
+.sobre {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
@@ -12,45 +12,37 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-}
-.introducao-conteudo {
-  align-self: end;
-  padding-bottom: 80px;
-}
-.introducao h1 {
-  margin-bottom: 32px;
-}
-.introducao p {
-  margin-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 1200px) {
-  .introducao h1 {
+  .sobre h1 {
     font-size: 48px;
+    text-align: center;
   }
-  .introducao p {
+  .sobre p {
     font-size: 18px;
   }
-  .introducao {
+  .sobre {
     justify-items: center;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 900px) {
-  .introducao-bg {
-    background: var(--cor-2);
+  .sobre-bg {
+    background: var(--cor-3);
   }
-  .introducao {
+  .sobre {
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .introducao-imagem {
-    grid-row: 1;
+  .sobre-imagem {
     max-width: 350px;
     padding-top: 40px;
   }
-
-  .introducao h1 {
+  .sobre h1 {
     font-size: 32px;
     margin-bottom: 16px;
   }
