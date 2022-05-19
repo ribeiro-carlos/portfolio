@@ -38,7 +38,7 @@
 }
 @media (max-width: 900px) {
   .introducao-bg {
-    background: var(--cor-2);
+    background: #000b09;
   }
   .introducao {
     grid-template-columns: 1fr;
