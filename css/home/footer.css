@@ -9,19 +9,19 @@
   padding-bottom: 60px;
 }
 
-.topo {
+.scrollTop {
   position: fixed;
   bottom: 40px;
   right: -500px;
   opacity: 50%;
   transition: 0.4s all;
 }
-.show-button .topo {
+.scrollTop.show-button {
   right: 40px;
   transition: 0.4s all;
 }
 
-.topo:hover {
+.scrollTop:hover {
   opacity: 100%;
 }
 .footer h3 {
