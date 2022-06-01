@@ -44,7 +44,12 @@
 }
 .footer-redes {
   display: flex;
-  gap: 32px;
+  gap: 1rem;
+}
+.footer-redes img {
+  width: 48px;
+  height: auto;
+  fill: red;
 }
 .footer a:hover {
   color: var(--cor-0);
