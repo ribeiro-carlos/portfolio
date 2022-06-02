@@ -49,7 +49,9 @@
 .footer-redes img {
   width: 48px;
   height: auto;
-  fill: red;
+}
+#githubIcon path {
+  fill: #000;
 }
 .footer a:hover {
   color: var(--cor-0);

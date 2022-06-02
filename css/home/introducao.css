@@ -1,6 +1,7 @@
 /* INTRODUÇÂO CSS */
 .introducao-bg {
   background: var(--cor-4);
+  height: 62vh;
 }
 .introducao {
   display: grid;
@@ -17,6 +18,22 @@
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 80px;
+}
+
+.introducao h1::after {
+  content: "│";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 .introducao h1 {
   margin-bottom: 40px;
