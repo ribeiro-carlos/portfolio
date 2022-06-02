@@ -1,7 +1,10 @@
 /* INTRODUÇÂO CSS */
 .introducao-bg {
   background: var(--cor-4);
-  height: 62vh;
+}
+.titulo-fundo {
+  height: 48px;
+  display: inline-block;
 }
 .introducao {
   display: grid;
@@ -14,6 +17,9 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+.subtitulo {
+  margin-top: 40px;
 }
 .introducao-conteudo {
   align-self: end;
@@ -35,9 +41,6 @@
     opacity: 0;
   }
 }
-.introducao h1 {
-  margin-bottom: 40px;
-}
 
 @media (max-width: 1200px) {
   .introducao h1 {
@@ -50,6 +53,9 @@
     justify-items: center;
     padding-bottom: 10px;
     gap: 0px 30px;
+  }
+  .subtitulo {
+    margin-top: 20px;
   }
 }
 @media (max-width: 900px) {
