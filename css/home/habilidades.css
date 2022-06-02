@@ -54,3 +54,18 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 382px) {
+  .habilidades p {
+    font-size: 14px;
+  }
+  .skils {
+    gap: 7px 20px;
+  }
+  .img-stack {
+    width: 65px;
+  }
+  .habilidades {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

@@ -44,3 +44,18 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 382px) {
+  .portfolio {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sites {
+    padding-top: 1rem;
+  }
+  .sites-desc {
+    font-size: 0.9rem;
+  }
+  .portfolio-conteudo h1 {
+    font-size: 1.3rem;
+  }
+}
