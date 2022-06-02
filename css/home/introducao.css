@@ -2,10 +2,7 @@
 .introducao-bg {
   background: var(--cor-4);
 }
-.titulo-fundo {
-  height: 48px;
-  display: inline-block;
-}
+
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,9 +15,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-.subtitulo {
-  margin-top: 40px;
+.introducao h1 {
+  /* margin-bottom: 40px; */
 }
+.introducao h1 {
+  min-height: 192px;
+}
+
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 80px;
@@ -45,6 +46,7 @@
 @media (max-width: 1200px) {
   .introducao h1 {
     font-size: 48px;
+    min-height: 16px;
   }
   .introducao p {
     font-size: 18px;
@@ -74,6 +76,10 @@
 
   .introducao h1 {
     font-size: 32px;
-    margin-bottom: 16px;
+  }
+}
+@media (max-width: 752px) {
+  .introducao h1 {
+    min-height: 99px;
   }
 }
