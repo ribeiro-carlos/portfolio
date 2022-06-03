@@ -46,7 +46,7 @@
 @media (max-width: 1200px) {
   .introducao h1 {
     font-size: 48px;
-    min-height: 16px;
+    min-height: 170px;
   }
   .introducao p {
     font-size: 18px;
@@ -76,6 +76,7 @@
 
   .introducao h1 {
     font-size: 32px;
+    min-height: 40px;
   }
 }
 @media (max-width: 752px) {
